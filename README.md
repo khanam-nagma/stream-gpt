@@ -35,7 +35,9 @@
 -Made the Browsre page amazing with Tailwind CSS
 -usePopularMovies Custom hook
 -UseUpComingMovies Custom hook
-
+-GPT Search Page
+-GPT Search Bar
+-(BONUS) Multi-language Feature in our App
 # Features
 -Login/Sign up
 -Sign In/Sign Up Form
