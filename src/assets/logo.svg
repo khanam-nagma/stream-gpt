@@ -1,0 +1,56 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for the main text - Netflix Red -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E50914;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E50914;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B81D24;stop-opacity:1" />
+    </linearGradient>
+   
+    <!-- Gradient for the AI elements - Netflix Gray/White -->
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CCCCCC;stop-opacity:1" />
+    </linearGradient>
+   
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+ 
+  <!-- Background circle for depth -->
+  <circle cx="25" cy="50" r="20" fill="url(#aiGradient)" opacity="0.1"/>
+ 
+  <!-- Play button icon with film strip elements -->
+  <g transform="translate(15, 35)">
+    <!-- Film strip background -->
+    <rect x="0" y="5" width="20" height="20" rx="2" fill="#141414" stroke="url(#aiGradient)" stroke-width="1"/>
+   
+    <!-- Film perforations -->
+    <rect x="2" y="7" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="2" y="11" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="2" y="15" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="2" y="19" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+   
+    <rect x="16" y="7" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="16" y="11" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="16" y="15" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+    <rect x="16" y="19" width="2" height="2" fill="url(#aiGradient)" opacity="0.6"/>
+   
+    <!-- Play button -->
+    <polygon points="8,10 8,20 16,15" fill="url(#textGradient)"/>
+  </g>
+ 
+  <!-- Main text "StreamGPT" -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#textGradient)">
+    Stream<tspan fill="url(#aiGradient)">GPT</tspan>
+  </text>
+
+
+ 
+</svg>

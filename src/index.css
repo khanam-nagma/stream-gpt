@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --background-color: #141414;      /* Deep dark background */
+  --primary-color: #e50914;         /* Netflix red */
+  --primary-dark: #b00610;          /* Darker red for hover */
+  --text-color: #ffffff;            /* White text */
+  --secondary-text: #b3b3b3;        /* Grayish text */
+  --card-bg: #1e1e1e;               /* Dark card background */
+  --hover-bg: #2c2c2c;              /* Hover background */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
