@@ -59,7 +59,7 @@ const Header = () => {
        src={Logo}
       alt="Logo"/>
       {user && (
-        <div className='flex p-2 justify-between'>
+        <div className='flex p-2 justify-between items-center'>
           { showGptSearchPage && 
           (<select className="p-2 m-2 bg-gray-900 text-white rounded-sm" onChange={handleLanguageChange}>
             {SUPPORTED_LANGUAGES.map((lang) => (

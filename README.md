@@ -48,7 +48,7 @@ public/
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/stream-gpt.git
+git clone https://github.com/khanam-nagma/stream-gpt
 cd stream-gpt
 ```
 
@@ -86,7 +86,7 @@ The app will run at [http://localhost:3000](http://localhost:3000).
 
 ## 🌐 Live Demo
 
-[Stream GPT Live](https://your-live-url.com)
+[Stream GPT Live](https://stream-gpt.netlify.app/)
 
 ---
 
