@@ -82,6 +82,12 @@ The app will run at [http://localhost:3000](http://localhost:3000).
 
 ---
 
+## 🌐 Live Demo
+
+[Stream GPT Live](https://your-live-url.com)
+
+---
+
 ## 🧠 How It Works
 
 - **Authentication:** Users can sign up or sign in. Auth state is managed via Firebase and Redux.
@@ -91,21 +97,16 @@ The app will run at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🖼️ Screenshots
-
-> _Add your own screenshots here!_
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please open issues or pull requests for improvements or bug fixes.
 
 ---
 
-## 📄 License
+## 🙋‍♂️ Author
 
-MIT License
+**Nagma Khanam**  
+[LinkedIn](https://www.linkedin.com/in/nagma-nk-khanam/)
 
 ---
 
@@ -115,3 +116,5 @@ MIT License
 - [OpenAI](https://openai.com/)
 - [Firebase](https://firebase.google.com/)
 - [Netflix UI inspiration](https://www.netflix.com/)
+
+---
