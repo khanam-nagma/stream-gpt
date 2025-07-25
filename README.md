@@ -2,6 +2,8 @@
 
 Stream GPT is a modern, Netflix-inspired movie streaming web app with AI-powered movie recommendations using OpenAI GPT. Built with React, Redux, Firebase Authentication, and TMDB API, it delivers a seamless, responsive, and engaging user experience.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27c9292d-1cdd-4dc5-aea9-7ac0722ed901/deploy-status)](https://app.netlify.com/projects/stream-gpt/deploys)
+
 ---
 
 ## 🚀 Features
